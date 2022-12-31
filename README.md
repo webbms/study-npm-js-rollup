@@ -12,3 +12,7 @@
 
 5.使用jest单元测试
 
+6.配置 husky 规范 commit
+
+ lint 和 test 都通过之后才能进行 commit，另外规范commit message的格式，要求更有意义的 commit message 才能进行 commit
+
