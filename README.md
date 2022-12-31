@@ -1,5 +1,6 @@
 # study-npm-js-rollup
-针对纯js的npm包模板：
+
+针对纯js的npm包脚手架：
 
 1.使用rollup打包
 
