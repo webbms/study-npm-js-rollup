@@ -1,6 +1,6 @@
 # study-npm-js-rollup
 
-针对纯 js 的 npm 包脚手架：
+针对纯 ts 的 npm 包脚手架模板：
 
 1.使用 rollup 打包
 
@@ -10,7 +10,7 @@
 
 4.使用 prettier 代码格式化
 
-5.使用 jest 单元测试
+5.使用babel转换es6代码
 
 6.配置 husky 规范 commit
 
