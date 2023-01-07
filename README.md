@@ -6,7 +6,7 @@
 
 2.使用 typescript 开发
 
-3.使用 eslint 代码校验
+3.使用 eslint 代码校验(使用airbnb-base+plugin:promise/recommended规则)
 
 4.使用 prettier 代码格式化
 
