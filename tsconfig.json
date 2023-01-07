@@ -22,7 +22,7 @@
 
     // 只生成类型文件，不转换代码
     "declaration": false,/* 生成相关的 '.d.ts' 文件。 */ 
-    "emitDeclarationOnly": false, /* 只生成声明文件，不生成 js 文件*/ 
+    "emitDeclarationOnly": false/* 只生成声明文件，不生成 js 文件*/ 
   },
   // 只编译 src 目录下的文件
   "include": ["src/**/*"],

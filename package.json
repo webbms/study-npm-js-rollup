@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "npm 脚手架",
   "main": "dist/study-npm-js-rollup.cjs.js",
+  "module": "dist/study-npm-js-rollup.es.js",
+  "browser": "dist/study-npm-js-rollup.umd.js",
   "scripts": {
     "build": " rm -rf dist && rollup -c",
     "lint:format": "prettier --write --loglevel warn \"src/**/*.{js,ts,json,tsx,css,less,vue,html,md}\"",
