@@ -1,6 +1,6 @@
 {
   "name": "study-npm-js-rollup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "npm 脚手架",
   "main": "dist/study-npm-js-rollup.cjs.js",
   "module": "dist/study-npm-js-rollup.es.js",
@@ -17,6 +17,7 @@
     "type": "git",
     "url": "git+https://github.com/webbms/study-npm-js-rollup.git"
   },
+  "files": ["dist","package.json","README.md"],
   "keywords": [
     "utils"
   ],
