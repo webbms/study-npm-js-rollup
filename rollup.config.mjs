@@ -39,7 +39,8 @@ export default defineConfig({
         '@antv/g6': 'G6'
       },
       // 注意如果是umd格式的bundle的话name属性是必须的，这时可以在script标签引入后window下会挂载该属性的变量来使用你的类库方法
-      name: libName
+      // 通过window.study_npm_js_rollup.packageFunction 所有必须下划线
+      name: 'study_npm_js_rollup'
     }
   ],
   // 解释同globals配置，这个配置的意思是我简单处理把外部依赖不打包进bundle中，而是前置引入或者作为依赖安装使用

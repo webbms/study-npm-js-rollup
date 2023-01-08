@@ -1,12 +1,12 @@
 {
   "name": "study-npm-js-rollup",
-  "version": "1.0.1",
+  "version": "2.0.1",
   "description": "npm 脚手架",
   "main": "dist/study-npm-js-rollup.cjs.js",
-  "module": "dist/study-npm-js-rollup.es.js",
-  "browser": "dist/study-npm-js-rollup.umd.js",
+  "browser":"dist/study-npm-js-rollup.umd.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": " rm -rf dist && rollup -c",
+    "build": "rm -rf dist && rollup --config",
     "lint:format": "prettier --write --loglevel warn \"src/**/*.{js,ts,json,tsx,css,less,vue,html,md}\"",
     "lint:check": "prettier --check .",
     "lint:eslint": "eslint --fix --ext .js,.ts,.vue ./src",
@@ -17,7 +17,11 @@
     "type": "git",
     "url": "git+https://github.com/webbms/study-npm-js-rollup.git"
   },
-  "files": ["dist","package.json","README.md"],
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
   "keywords": [
     "utils"
   ],

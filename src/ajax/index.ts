@@ -1,3 +1,3 @@
-export default function ajax<T>(url: T): T {
-  return url
+export default function ajax(url: string): string {
+  return `${url}:8080`
 }

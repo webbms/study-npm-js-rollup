@@ -4,11 +4,9 @@ const unique = (arry: number[]): number[] => {
 }
 // 数组冒泡排序
 const sortArray = (nums: number[]): number[] => {
-  let count = 0
   let sorted = true
   for (let i = nums.length - 1; i > 0; i -= 1) {
     for (let j = 0; j < i; j += 1) {
-      count += 1
       if (nums[j] > nums[j + 1]) {
         const temp = nums[j]
         // eslint-disable-next-line no-param-reassign
@@ -22,7 +20,6 @@ const sortArray = (nums: number[]): number[] => {
       break
     }
   }
-  console.log(count)
   return nums
 }
 
